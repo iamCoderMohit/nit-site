@@ -9,3 +9,7 @@
     --font-pro: Be Vietnam Pro, "sans-serif";
     --font-rubik: Rubik, "sans-serif"
 }
+
+html{
+    scroll-behavior: smooth;
+}

@@ -9,10 +9,18 @@ function App() {
 
   return (
     <>
-      <Home />
-      <Courses />
-      <Testimonials />
-      <Faq />
+      <div id='home'>
+        <Home />
+      </div>
+      <div id='course'>
+        <Courses />
+      </div>
+      <div id='review'>
+        <Testimonials />
+      </div>
+      <div id='faq'>
+        <Faq />
+      </div>
       <Footer />
     </>
   )
