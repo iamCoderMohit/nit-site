@@ -11,7 +11,7 @@ function CoursePage() {
             <h1 className='text-white md:w-2/4 font-bold text-4xl font-pro'>{course.title}</h1>
         </div>
 
-        <div className='pl-10 mb-15'>
+        <div className='sm:pl-10 sm:pr-0 pl-5 pr-5 mb-15'>
             <h1 className='text-blue-500 text-2xl font-semibold w-1/2 mb-5'>Description - </h1>
             <h1 className='text-white text-xl md:w-1/2 leading-8 text-justify'>{course.description}</h1>
         </div>
