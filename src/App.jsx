@@ -4,24 +4,18 @@ import Courses from './pages/Courses'
 import Testimonials from './pages/Testimonials'
 import Faq from './pages/Faq'
 import Footer from './components/Footer'
+import { Route, Routes } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import CoursePage from './pages/CoursePage'
 
 function App() {
 
   return (
     <>
-      <div id='home'>
-        <Home />
-      </div>
-      <div id='course'>
-        <Courses />
-      </div>
-      <div id='review'>
-        <Testimonials />
-      </div>
-      <div id='faq'>
-        <Faq />
-      </div>
-      <Footer />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/course/:id' element={<CoursePage />} />
+      </Routes>
     </>
   )
 }
